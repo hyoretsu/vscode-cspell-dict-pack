@@ -1,27 +1,73 @@
 {
- "name": "vscode-extension-pack-template",
- "displayName": "VSCode Extension Pack Template",
- "description": "A pack containing",
+ "name": "code-spell-checker-language-pack",
+ "displayName": "Code Spell Checker Language Pack",
+ "description": "A pack containing all dictionaries available for Code Spell Checker",
  "publisher": "hyoretsu",
  "version": "1.0.0",
- "icon": "",
- "license": "MIT",
+ "icon": "https://github.com/streetsidesoftware/vscode-spell-checker/blob/main/images/SpellCheck.png?raw=true",
+ "license": "GPL-3.0",
  "keywords": [
-  "VS Code Extension"
+  "Catalan",
+  "Croatian",
+  "Czech",
+  "Danish",
+  "Dutch",
+  "French",
+  "German",
+  "Greek",
+  "Hebrew",
+  "Italian",
+  "Persian",
+  "Polish",
+  "Brazilian Portuguese",
+  "Russian",
+  "Spanish",
+  "Swedish",
+  "Turkish",
+  "Ukrainian",
+  "Vietnamese",
+  "VS Code Extension",
+  "Spelling Checker",
+  "dictionary",
+  "spelling"
  ],
  "categories": [
-  "Extension Packs"
+  "Extension Packs",
+  "Linters",
+  "Other"
  ],
- "homepage": "https://github.com/hyoretsu/vsc-extension-pack-template",
+ "homepage": "https://github.com/hyoretsu/vscode-cspell-dict-pack",
  "repository": {
   "type": "git",
-  "url": "https://github.com/hyoretsu/vsc-extension-pack-template"
+  "url": "https://github.com/hyoretsu/vscode-cspell-dict-pack"
  },
  "bugs": {
-  "url": "https://github.com/hyoretsu/vsc-extension-pack-template/issues"
+  "url": "https://github.com/hyoretsu/vscode-cspell-dict-pack/issues"
  },
- "extensionPack": [],
+ "extensionPack": [
+  "streetsidesoftware.code-spell-checker-catalan",
+  "streetsidesoftware.code-spell-checker-croatian",
+  "streetsidesoftware.code-spell-checker-czech",
+  "streetsidesoftware.code-spell-checker-danish",
+  "streetsidesoftware.code-spell-checker-dutch",
+  "streetsidesoftware.code-spell-checker-french",
+  "streetsidesoftware.code-spell-checker-german",
+  "streetsidesoftware.code-spell-checker-greek",
+  "streetsidesoftware.code-spell-checker-hebrew",
+  "streetsidesoftware.code-spell-checker-italian",
+  "streetsidesoftware.code-spell-checker-medical-terms",
+  "streetsidesoftware.code-spell-checker-persian",
+  "streetsidesoftware.code-spell-checker-polish",
+  "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+  "streetsidesoftware.code-spell-checker-russian",
+  "streetsidesoftware.code-spell-checker-spanish",
+  "streetsidesoftware.code-spell-checker-swedish",
+  "streetsidesoftware.code-spell-checker-turkish",
+  "streetsidesoftware.code-spell-checker-ukrainian",
+  "streetsidesoftware.code-spell-checker-vietnamese"
+ ],
  "engines": {
+  "node": ">12.0.0",
   "vscode": "^1.57.0"
  }
 }
