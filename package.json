@@ -1,0 +1,27 @@
+{
+ "name": "vscode-extension-pack-template",
+ "displayName": "VSCode Extension Pack Template",
+ "description": "A pack containing",
+ "publisher": "hyoretsu",
+ "version": "1.0.0",
+ "icon": "",
+ "license": "MIT",
+ "keywords": [
+  "VS Code Extension"
+ ],
+ "categories": [
+  "Extension Packs"
+ ],
+ "homepage": "https://github.com/hyoretsu/vsc-extension-pack-template",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/hyoretsu/vsc-extension-pack-template"
+ },
+ "bugs": {
+  "url": "https://github.com/hyoretsu/vsc-extension-pack-template/issues"
+ },
+ "extensionPack": [],
+ "engines": {
+  "vscode": "^1.57.0"
+ }
+}
