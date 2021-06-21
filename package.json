@@ -4,7 +4,7 @@
  "description": "A pack containing all dictionaries available for Code Spell Checker",
  "publisher": "hyoretsu",
  "version": "1.0.0",
- "icon": "https://github.com/streetsidesoftware/vscode-spell-checker/blob/main/images/SpellCheck.png?raw=true",
+ "icon": "images/SpellCheck.png",
  "license": "GPL-3.0",
  "keywords": [
   "Catalan",
